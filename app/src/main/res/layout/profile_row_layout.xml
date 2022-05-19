@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1,2,3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/RowOne_1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:gravity="center"
+                android:text="Profile ID :"
+                android:textAlignment="textEnd" />
+
+            <TextView
+                android:id="@+id/RowOne_2"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:gravity="center"
+                android:textAlignment="viewStart" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/RowTwo_1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:gravity="center"
+                android:text="Name :"
+                android:textAlignment="textEnd" />
+
+            <TextView
+                android:id="@+id/RowTwo_2"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:gravity="center"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/ButtonEdit"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:backgroundTint="#039BE5"
+                android:gravity="center"
+                android:text="Edit" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/RowThree_1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:gravity="center"
+                android:text="Age :"
+                android:textAlignment="textEnd" />
+
+            <TextView
+                android:id="@+id/RowThree_2"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/ButtonDelete"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:backgroundTint="#FF0A0A"
+                android:gravity="center"
+                android:text="Delete" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/RowFour_1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:gravity="center"
+                android:text="Gender :"
+                android:textAlignment="textEnd" />
+
+            <TextView
+                android:id="@+id/RowFour_2"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:gravity="center" />
+
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
